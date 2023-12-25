@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/style/style.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- ヘッダー -->
+    <header class="header">
+
+        <!-- ハンバーガーメニュー部分 -->
+        <div class="nav">
+
+            <!-- ハンバーガーメニューの表示・非表示を切り替えるチェックボックス -->
+            <input type="checkbox" id="drawer_input" class="drawer_hidden">
+            <!-- ハンバーガーアイコン -->
+            <label for="drawer_input" class="drawer_open">
+                <span></span>
+            </label>
+            <!-- メニュー -->
+            <nav class="nav_content">
+                <ul class="nav_list">
+                    <li class="nav_item"><a href="/index.html">Home</a></li>
+                    <li class="nav_item"><a href="/inquiry/index.html">お問い合わせ</a></li>
+                    <li class="nav_item"><a href="/view/index.html">イラスト集</a>
+                </ul>
+            </nav>
+
+        </div>
+        <!-- home -->
+        <a href="/index.html" class="home">
+            <img src="/illustration/home_image.jpg" width="400px" height="100px" alt="home">
+        </a>
+        <a href="/inquiry/index.html" class="home">
+            <img src="/illustration/inquiry.jpg" width="60px" height="50px" alt="お問い合わせ">
+        </a>
+    </header>
+
+    <!-- お問い合わせフォーム -->
+    <h1 style="text-align: center;">
+        Contact
+    </h1>
+    <h2>
+        ご入力ください。
+    </h2>
+
+    <div style="text-align: center;">
+        <div class="flexbox">
+            <input type="text" placeholder="名前" style="width: 200px;">
+            <input type="email" placeholder="メールアドレス" style="width: 200px;">
+            <input type="tel" placeholder="電話番号" style="width: 200px;">
+            <input type="textarea" placeholder="お問い合わせ内容" style="width: 200px;">
+            <input type="button" value="送信" onclick="alert('API処理は未実装')" style="width: 200px;">
+        </div>
+    </div>
+
+
+</body>
+
+</html>

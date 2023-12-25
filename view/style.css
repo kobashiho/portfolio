@@ -1,0 +1,53 @@
+html,
+body {
+    overflow-x: hidden;
+}
+
+.card-wrapper {
+    /* width: 500px; */
+    width: 100%;
+    /* 横並びに表示 */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    /* 縦方向にコンテンツを配置 */
+    flex-direction: column;
+    margin: 10px;
+    text-align: center;
+}
+
+.card-img {
+    height: 200px;
+    margin: 10px;
+
+}
+
+.card-content {
+    /* text-align: center; */
+    flex-wrap: wrap;
+    width: 200px;
+    padding: 5px;
+    flex-grow: 1;
+}
+
+.card-button {
+    height: 30px;
+    width: 100px;
+    background-color: pink;
+    border: 0px;
+    cursor: pointer;
+
+}
+
+.card-button:hover {
+    background-color: greenyellow;
+}
+
+.seriesTitle {
+    color: orange;
+    text-align: center;
+}
