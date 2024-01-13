@@ -124,3 +124,10 @@ html {
     right: 10px;
     padding: 6px 40px;
 }
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    margin: 0 auto;
+}
