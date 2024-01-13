@@ -119,5 +119,8 @@ html {
 }
 
 .bnr {
-    text-align: right;
+    position: fixed;
+    top: 50%;
+    right: 10px;
+    padding: 6px 40px;
 }
