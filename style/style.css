@@ -136,3 +136,14 @@ html {
     width: 600px;
     margin: 0 auto;
 }
+
+.figma {
+    text-decoration: none;
+    font-size: 30px;
+    color: rgb(255, 0, 0);
+}
+
+.figma :hover {
+    color: rgb(115, 115, 223);
+    text-decoration: underline;
+}
